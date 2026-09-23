@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MIDE GADGET HUB - Original phones, fast repairs, phone buying and swaps in Ijebu Ode.">
+  <title>MIDE GADGET HUB | Your Trusted Phone Plug</title>
+  <style>
+    :root{--ink:#111;--muted:#666;--line:#e9e9e9;--bg:#fff;--soft:#f6f6f6}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+    a{text-decoration:none;color:inherit}
+    header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line)}
+    .nav{max-width:1100px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-weight:900;letter-spacing:.5px;font-size:20px}
+    .navlinks{display:flex;gap:22px;font-size:14px;font-weight:700}
+    .navlinks a:hover{opacity:.6}
+    .menu{display:none;border:0;background:none;font-size:25px}
+    .hero{background:#f5f5f5}
+    .hero-inner{max-width:1100px;margin:auto;padding:88px 22px 80px;display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}
+    .eyebrow{text-transform:uppercase;font-size:12px;font-weight:800;letter-spacing:2px;color:#555;margin-bottom:12px}
+    h1{font-size:clamp(42px,7vw,78px);line-height:.98;letter-spacing:-3px;margin-bottom:20px}
+    .hero p{font-size:18px;color:#555;max-width:580px;margin-bottom:28px}
+    .buttons{display:flex;flex-wrap:wrap;gap:12px}
+    .btn{display:inline-block;padding:13px 19px;border-radius:8px;font-weight:800;font-size:14px}
+    .btn-dark{background:#111;color:#fff}.btn-light{background:#fff;border:1px solid #ddd}
+    .phone-card{min-height:340px;border-radius:24px;background:#111;color:#fff;padding:30px;display:flex;flex-direction:column;justify-content:flex-end;box-shadow:0 20px 50px #0002}
+    .phone-card .badge{font-size:12px;letter-spacing:1.5px;text-transform:uppercase;opacity:.65}
+    .phone-card h2{font-size:40px;line-height:1;margin:10px 0}
+    .phone-card p{color:#bbb;margin:0}
+    section{max-width:1100px;margin:auto;padding:78px 22px}
+    .section-head{margin-bottom:34px}
+    .section-head h2{font-size:38px;letter-spacing:-1px}
+    .section-head p{color:var(--muted);margin-top:7px}
+    .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .card{border:1px solid var(--line);border-radius:16px;padding:24px;background:#fff}
+    .icon{font-size:28px;margin-bottom:18px}.card h3{margin-bottom:7px}.card p{color:var(--muted);font-size:14px}
+    .why{background:#f6f6f6;max-width:none}.why-inner{max-width:1100px;margin:auto;padding:78px 22px}
+    .checks{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:25px}
+    .check{background:#fff;border-radius:12px;padding:16px;font-weight:700}
+    .contact{display:grid;grid-template-columns:1fr 1fr;gap:50px}
+    .contact-box{border:1px solid var(--line);border-radius:16px;padding:25px}
+    .contact-box p{margin:12px 0;color:#555}
+    .contact-box strong{color:#111}
+    footer{background:#111;color:#fff;text-align:center;padding:30px 22px}
+    footer p{color:#aaa;font-size:13px;margin-top:5px}
+    @media(max-width:760px){
+      .navlinks{display:none}.menu{display:block}
+      .hero-inner{grid-template-columns:1fr;padding-top:60px}
+      .phone-card{min-height:250px}
+      .grid{grid-template-columns:1fr 1fr}
+      .checks{grid-template-columns:1fr}
+      .contact{grid-template-columns:1fr}
+      h1{letter-spacing:-2px}
+    }
+    @media(max-width:460px){.grid{grid-template-columns:1fr}.nav{padding:14px 16px}}
+  </style>
+</head>
+<body>
+<header>
+  <nav class="nav">
+    <a class="brand" href="#home">MIDE GADGET HUB</a>
+    <div class="navlinks">
+      <a href="#services">Services</a><a href="#why">Why Us</a><a href="#contact">Contact</a>
+    </div>
+    <button class="menu" onclick="document.querySelector('.navlinks').style.display =
+      document.querySelector('.navlinks').style.display==='flex'?'none':'flex'">☰</button>
+  </nav>
+</header>
+
+<main id="home">
+  <div class="hero">
+    <div class="hero-inner">
+      <div>
+        <div class="eyebrow">Phones • Repairs • Swaps</div>
+        <h1>Your Trusted Phone Plug.</h1>
+        <p>Original phones, fast repairs and reliable gadget services. Buy, fix, swap or sell your phone with MIDE GADGET HUB.</p>
+        <div class="buttons">
+          <a class="btn btn-dark" href="tel:09059374712">Call Us</a>
+          <a class="btn btn-light" href="https://wa.me/2349059374712" target="_blank">WhatsApp Us</a>
+        </div>
+      </div>
+      <div class="phone-card">
+        <div class="badge">MIDE GADGET HUB</div>
+        <h2>IFIX.<br>ISELL.<br>IBUY.<br>ISWAP.</h2>
+        <p>Smart choices. Fast and reliable.</p>
+      </div>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="section-head">
+      <h2>What we do</h2>
+      <p>Everything you need for your phone, under one roof.</p>
+    </div>
+    <div class="grid">
+      <div class="card"><div class="icon">📱</div><h3>I Sell</h3><p>New and quality phones for different budgets.</p></div>
+      <div class="card"><div class="icon">🔧</div><h3>I Fix</h3><p>Fast and professional phone repair services.</p></div>
+      <div class="card"><div class="icon">💰</div><h3>I Buy</h3><p>Looking to sell your phone? Talk to us.</p></div>
+      <div class="card"><div class="icon">🔄</div><h3>I Swap</h3><p>Swap your current phone for another device.</p></div>
+    </div>
+  </section>
+
+  <div class="why" id="why">
+    <div class="why-inner">
+      <div class="section-head">
+        <h2>Why choose MIDE?</h2>
+        <p>Service built around trust, value and convenience.</p>
+      </div>
+      <div class="checks">
+        <div class="check">✓ Original Phones</div>
+        <div class="check">✓ Fast Repairs</div>
+        <div class="check">✓ Affordable Prices</div>
+        <div class="check">✓ Warranty Available</div>
+        <div class="check">✓ Delivery Available</div>
+        <div class="check">✓ Trusted Service</div>
+      </div>
+    </div>
+  </div>
+
+  <section id="contact">
+    <div class="contact">
+      <div>
+        <div class="section-head">
+          <h2>Visit or contact us</h2>
+          <p>Ready to get a phone, repair your device, buy or swap? Reach out today.</p>
+        </div>
+        <div class="buttons">
+          <a class="btn btn-dark" href="tel:09059374712">09059374712</a>
+          <a class="btn btn-light" href="tel:09049101053">09049101053</a>
+        </div>
+      </div>
+      <div class="contact-box">
+        <p><strong>📍 Address</strong><br>Shop 07, Allah’s Will Plaza, Abeokuta Road, Ijebu Ode</p>
+        <p><strong>🎵 TikTok</strong><br><a href="https://www.tiktok.com/@gadgethub_in.ijbode" target="_blank">@gadgethub_in.ijbode</a></p>
+        <p><strong>💬 WhatsApp</strong><br><a href="https://wa.me/2349059374712" target="_blank">Chat with us</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <strong>MIDE GADGET HUB</strong>
+  <p>Smart choices. Fast and reliable.</p>
+  <p>© 2026 MIDE GADGET HUB. All rights reserved.</p>
+</footer>
+</body>
+</html>
